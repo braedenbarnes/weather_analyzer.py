@@ -13,7 +13,6 @@ This project is designed to help students practice:
 - Add new city weather data
 - Save updates to file
 
-Sprint 2
-
+# Sprint 2
 Added core functionality to load weather data from CSV, display city temperatures, and search for a city with fallback message if not found
 Implemented data loading, display, and city search features with not-found handling
