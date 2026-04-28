@@ -43,3 +43,10 @@ def main():
         print("3. Add City")
         print("4. Exit")
 
+ choice = input("Choose an option: ")
+if choice == "1":
+    display_data(data)
+ elif choice == "2":
+     city = input("Enter city name: ")
+            search_city(data, city)
+
