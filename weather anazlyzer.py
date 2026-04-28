@@ -22,3 +22,24 @@ def search_city(data, city_name):
             print(f"{city}: {temp}")
             return
     print("City not found")
+    def add_city(filename):
+    city = input("Enter city: ")
+    country = input("Enter country: ")
+    temp = input("Enter temperature: ")
+
+    with open(filename, "a") as file:
+        file.write(f"\n{city},{country},{temp}")
+
+    print("City added!")
+
+
+def main():
+    filename = "weather.csv"
+    data = load_data(filename)
+
+    while True:
+        print("\n1. View Data")
+        print("2. Search City")
+        print("3. Add City")
+        print("4. Exit")
+
