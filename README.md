@@ -18,3 +18,5 @@ This project is designed to help students practice:
 - Implemented data loading, display, and city search features with not-found handling
 - Added add_city function to allow users to show new weather data to file and began implementing main menu structure for user interaction
 - Implemented add_city feature and started main menu system with user options
+- Implemented menu option to display all weather data
+- Implemented menu option to search for a city using user input
