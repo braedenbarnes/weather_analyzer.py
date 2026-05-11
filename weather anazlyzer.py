@@ -49,4 +49,15 @@ if choice == "1":
  elif choice == "2":
      city = input("Enter city name: ")
             search_city(data, city)
+ elif choice == "3":
+            add_city(filename)
 
+        elif choice == "4":
+            print("Exiting program...")
+            break
+
+        else:
+            print("Invalid choice. Please try again.")
+
+
+main()
